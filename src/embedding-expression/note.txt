@@ -1,0 +1,13 @@
+>Pros and state :
+>pros external
+>state internal
+
+>pros : data which are passing from one component to another
+>pros drilling :  method where pros(data) are passing.
+................................................
+
+> LIFE CYCLE METHODS
+
+    > MOUNTING PHASE
+    > UPDATING (COPONENT IS CHANGED)
+    > UNMOUNTING(COMPONENT IS REMOVED)

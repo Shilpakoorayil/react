@@ -1,0 +1,17 @@
+
+Very Impt:
+used reduced
+used layout effect
+used memo
+use ref
+................
+HW
+EXAMPLE 2,3,4
+
+
+terminal 
+ npm i react-icons
+
+ /................
+
+ useEffect file :
