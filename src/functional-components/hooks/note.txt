@@ -15,3 +15,12 @@ terminal
  /................
 
  useEffect file :
+
+
+//Tuesday's work:
+ userApiContext
+
+ To set Outer  dom
+ >npm i react-router-dom
+ >link set
+ >router set
