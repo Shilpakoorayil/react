@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+}
+
+/* Navbar */
+.navbar {
+  background: rgb(8, 56, 8);
+  color:white;
+  padding: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.navbar h1{
+    color: white;
+}
+
+
+/* Main container */
+.container {
+  padding: 20px;
+}
+
+/* Todo box */
+.todo-box {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input section */
+.input-group {
+  display: flex;
+  justify-content: row;
+  cursor: pointer;
+ 
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+.input-group button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background: green;
+}
+
+/* Empty message */
+.empty {
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+}
+
+/* Todo list */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Each todo */
+.todo-item {
+  background: #f8f9fc;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Text section */
+.todo-text p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Buttons */
+.actions button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions .edit {
+  background: #ffb703;
+  color: white;
+}
+
+.actions .delete {
+  background: #e63946;
+  color: white;
+}

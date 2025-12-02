@@ -5,8 +5,24 @@
 // import Conditional from './embedding-expression/Conditional'
 // import Sum from './embedding-expression/sum'
 
-import BasicForm from "./form/BasicForm"
-import NormalForm from "./form/NormalForm"
+import CartApp from "./cart_components/CartApp"
+import { CartProvider } from "./context/CartContext"
+
+// import { CartContext } from "./context/CartContext"
+// import Counter from "./demo1/counter001"
+// import ShoppingCart from "./ShoppingCart"
+
+// import ToDo from "../WORKS/ToDo"
+// import AxiosGet from "./avios/AxiosGet"
+// import AxiosDelete from "./avios/AxiosDelete"
+// import AxiosPost from "./avios/AxiosPost"
+// import AxiosPut from "./avios/AxiosPut"
+
+// import BasicForm from "./form/BasicForm"
+// import NormalForm from "./form/NormalForm"
+// import FormSample from "./FormSample"
+// import Crud from "./local-storage/Crud"
+// import TodoApp from "./works/ToDo"
 
 // import { Link, Route, Router, Routes } from "react-router-dom"
 // import BasicFc from "./functional-components/BasicFc"
@@ -129,11 +145,29 @@ function App() {
 {/* <BasicForm/> */}
 
 
-<NormalForm/>
+{/* <NormalForm/> */}
+{/* <FormSample/> */}
+{/* ls */}
+{/* 
+<Crud/> */}
 
 
+{/* .................................. */}
+{/* <ToDo/> */}
+{/* <TodoApp/> */}
 
+{/* .......axios............ */}
+{/* <AxiosGet/> */}
+{/* <AxiosPost/> */}
+{/* <AxiosPut/> */}
+{/* <AxiosDelete/> */}
 
+{/* <Counter/> */}
+{/* <ShoppingCart/> */}
+{/* <CartProvider>
+ <App/>
+</CartProvider> */}
+<CartApp/>
 
 
     </>
